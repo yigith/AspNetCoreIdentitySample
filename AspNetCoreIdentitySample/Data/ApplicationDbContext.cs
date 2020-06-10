@@ -12,5 +12,7 @@ namespace AspNetCoreIdentitySample.Data
             : base(options)
         {
         }
+
+        public DbSet<Sehir> Sehirler { get; set; }
     }
 }
